@@ -1,0 +1,67 @@
+*{
+    font-family: Cambria;
+    background-color:thistle ;
+}
+.image{
+    width: 150px;
+    object-fit:cover;
+    border-radius:50%;
+}
+.section-pertama{
+    text-align: center;
+    align-content: center;
+}
+.section-kedua{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.section-ketiga{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    justify-content: start;
+    border: 3px solid cornflowerblue;
+}
+
+/*Tablet Device*/
+@media(min-width: 768px) and (max-width: 992px){
+    .section-pertama{
+        text-align: center;
+        color: black;
+    }
+}
+
+/*Desktop Device*/
+@media(min-width: 992px){
+    .section-pertama{
+        color:black;
+    }
+    .section-kedua{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .section-ketiga{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    table, th, td{
+        border: 1px solid coral;
+    }
+}
+
+.f1{
+    list-style-type:lower-latin;
+    text-align: center;
+}
+.f2{
+    list-style: circle;
+    text-align: center;
+    background-color: thistle;
+}
+.f3{
+    list-style:none;
+    text-align: center;
+}
