@@ -1,0 +1,11 @@
+.hero-banner{
+    background-image: url('https://wallpaperaccess.com/full/1399190.png');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    height: 50px;
+}

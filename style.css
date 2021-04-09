@@ -5,7 +5,7 @@
 .image{
     width: 150px;
     object-fit:cover;
-    border-radius:50%;
+    border: radius 75%;
 }
 .section-pertama{
     text-align: center;
@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     text-align: start;
     justify-content: start;
-    border: 3px solid cornflowerblue;
+    border: 3px solid white;
 }
 
 /*Tablet Device*/
@@ -48,7 +48,7 @@
         justify-content: center;
     }
     table, th, td{
-        border: 1px solid coral;
+        border: 1px solid white;
     }
 }
 
